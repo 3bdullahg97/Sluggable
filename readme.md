@@ -17,16 +17,17 @@ $ composer require luqta/sluggable
 
 ## Usage
 
-Go to the model that you need to sluggable and use the Sluggable trait
+Use the Sluggable trait in your model
+
 ```
 <?php
 namespace App;
 
-**use Luqta\Sluggable\Traits\Sluggable;**
+use Luqta\Sluggable\Traits\Sluggable;
 
 class User extends Model
 {
-    use **Sluggable**;
+    use Sluggable;
 }
 ```
 
